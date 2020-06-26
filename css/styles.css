@@ -1,0 +1,73 @@
+h1{
+    color: blue;
+}
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .tl-content p, .f3 {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .tl-content, .tl-year {
+    display: none;
+  }
+
+  .tl-item {
+    background: none;
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+#logo img {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#logo:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.navbar-light {
+  box-shadow: none;
+}
+
+.navShadow {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.navbar-brand {
+  color: black;
+  padding-top: 15px;
+  margin-bottom: 1px;
+}
+
+.scrolled {
+  background-color: white;
+  transition: 1s;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+i {
+  color: black;
+}
