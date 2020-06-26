@@ -2,7 +2,7 @@ h1{
     color: blue;
 }
 
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   .tl-content p, .f3 {
     display: none;
   }
@@ -16,14 +16,14 @@ h1{
   .tl-item {
     background: none;
   }
-} */
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 .yote{
-  background-color: black;
+  background-color: #BDC3C7;
 }
 
 
@@ -48,9 +48,8 @@ html {
 }
 
 .navbar-brand {
-  color: black;
   padding-top: 15px;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 
 .scrolled {
@@ -68,7 +67,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: black;
+  color: #F1C40F;
   text-decoration: none;
 }
 
