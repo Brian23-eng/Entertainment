@@ -66,6 +66,9 @@ html {
   margin-bottom: 5px;
 }
 
+#brandName{
+  background-color: #111;
+}
 
 
 .navbar-brand:hover {
@@ -84,6 +87,12 @@ nav li a:hover {
 
 i {
   color: black;
+}
+
+.picha{
+  margin-top: 12.5%;
+  margin-left: 25%;
+  margin-bottom: 12.5%;
 }
 
 
