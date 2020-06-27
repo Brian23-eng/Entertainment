@@ -47,15 +47,18 @@ html {
   box-shadow: 0px 15px 10px -15px #111;
 }
 
+.nav-item{
+  font-weight: 800;
+}
+
+.navbar-light
+
 .navbar-brand {
   padding-top: 15px;
   margin-bottom: 5px;
 }
 
-.scrolled {
-  background-color: white;
-  transition: 1s;
-}
+
 
 .navbar-brand:hover {
   color: black;
@@ -73,4 +76,10 @@ nav li a:hover {
 
 i {
   color: black;
+}
+
+
+.scrolled {
+  background-color: white;
+  transition: 1s;
 }
