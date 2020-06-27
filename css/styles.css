@@ -92,7 +92,12 @@ i {
 .picha{
   margin-top: 12.5%;
   margin-left: 25%;
-  margin-bottom: 12.5%;
+  margin-bottom: 12.3%;
+}
+
+h4{
+  margin-left: 20%;
+  /* margin-bottom: 12.5%; */
 }
 
 
