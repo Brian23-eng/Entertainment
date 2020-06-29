@@ -110,6 +110,7 @@ h4{
 
 .chini{
   padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #111;
   color: white;
 }
@@ -122,12 +123,9 @@ footer{
   padding-top: 60px;
 }
 
-.fb:hover{
-  color: black;
-}
-
-.fb{
-  fill: white;
+.down{
+  padding-top: 30px;
+  font-size: x-small;
 }
 
 
