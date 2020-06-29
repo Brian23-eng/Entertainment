@@ -115,11 +115,19 @@ h4{
 }
 
 hr.rine{
-  border-top:1px solid black;
+  border-top:1px solid white;
 }
 
 footer{
   padding-top: 60px;
+}
+
+.fb:hover{
+  color: black;
+}
+
+.fb{
+  fill: white;
 }
 
 
