@@ -97,7 +97,7 @@ h4{
 }
 
 .work{
-  background-color: #D35400;
+  background-color: #D8D2CE;
   color: black;
   padding-top: 25px;
 }
@@ -106,6 +106,20 @@ h4{
   background-color: black;
   color: white;
   padding-top: 25px;
+}
+
+.chini{
+  padding-top: 60px;
+  background-color: #111;
+  color: white;
+}
+
+hr.rine{
+  border-top:1px solid black;
+}
+
+footer{
+  padding-top: 60px;
 }
 
 
