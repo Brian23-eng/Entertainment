@@ -189,5 +189,13 @@ footer{
   font-size: 20px;
 }
 
+#social i{
+  color: white;
+}
+
+#social i:hover{
+  color: #D35400;
+}
+
 
 
