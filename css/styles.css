@@ -214,4 +214,21 @@ footer{
   padding: 15px;
 }
 
+.do{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../Assets/audio-visual.jpg");
+  padding: 15px;
+  min-height: 50vh;
+  /* padding: 15%; */
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+}
+
+.card{
+  background-color: transparent;
+  color: white ;
+}
+
 
