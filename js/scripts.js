@@ -2,42 +2,42 @@ $(document).ready(function(){
     
     $(".andish").hover(function(){
 
-      $(".smart").slideToggle(500);
+      $(".smart").fadeToggle(500);
       $("#smart").slideToggle(500);
       
     });
 
     $(".cru").hover(function(){
 
-      $(".evacute").slideToggle(500);
+      $(".evacute").fadeToggle(500);
       $("#evacute").slideToggle(500);
       
     });
 
     $(".cro").hover(function(){
 
-      $(".audit").slideToggle(500);
+      $(".audit").fadeToggle(500);
       $("#audit").slideToggle(500);
       
     });
 
     $(".cri").hover(function(){
 
-      $(".cable").slideToggle(500);
+      $(".cable").fadeToggle(500);
       $("#cable").slideToggle(500);
       
     });
 
     $(".cra").hover(function(){
 
-      $(".enter").slideToggle(500);
+      $(".enter").fadeToggle(500);
       $("#enter").slideToggle(500);
       
     });
 
     $(".cre").hover(function(){
 
-      $(".music").slideToggle(500);
+      $(".music").fadeToggle(500);
       $("#music").slideToggle(500);
       
     });
