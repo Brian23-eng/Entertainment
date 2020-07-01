@@ -259,3 +259,19 @@ iframe{
   height: 400px;
 }
 
+.sono{
+  
+    background-image:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),url("../Assets/sonos1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100%;
+    padding: 15px;
+    color: white;
+  
+}
+
+.reach{
+  padding: 25%;
+}
