@@ -81,32 +81,58 @@
     <!--Card content-->
     <div class="card-body px-lg-5 pt-0">
   
-        <!-- Form -->
-        <form class="text-center", action="POST" method="POST">
-  
+        
+        <!-- <form class="text-center", action="https://formspree.io/myynngqn" method="POST" id="my-form">
+   -->
             <!-- Name -->
-            <div class="md-form mt-3">
+            <!-- <div class="md-form mt-3">
                 <input type="text" id="materialContactFormName" class="form-control">
-                <label for="materialContactFormName">Name</label>
-            </div>
+                <label for="materialContactFormName" name = "name">Name</label>
+            </div> -->
   
-            <!-- E-mail -->
-            <div class="md-form">
+           
+            <!-- <div class="md-form">
                 <input type="email" id="materialContactFormEmail" class="form-control">
-                <label for="materialContactFormEmail">E-mail</label>
-            </div>
+                <label for="materialContactFormEmail" name="email" >E-mail</label>
+            </div> -->
   
             <!--Message-->
-            <div class="md-form">
+            <!-- <div class="md-form">
                 <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                <label for="materialContactFormMessage">Message</label>
-            </div>
+                <label for="materialContactFormMessage" name= "message">Message</label>
+            </div> -->
   
             <!-- Send button -->
-            <button class="btn btn-warning btn-rounded white-text z-depth-0 my-4 waves-effect" type="submit">Send</button>
+            <!-- <button class="btn btn-warning btn-rounded white-text z-depth-0 my-4 waves-effect" id="my-form-button" type="submit">Send</button>
+
+            <p id="my-form-status"></p>
   
-        </form>
+        </form> -->
         <!-- Form -->
+
+
+                  <!-- Form -->
+              <form class="text-center" id="my-form" action="https://formspree.io/myynngqn" method="POST">
+
+                   <!-- E-mail -->
+                <div class="md-form">
+                  <input type="email" name="email" id="materialContactFormEmail" class="form-control"/>
+                  <label for="materialContactFormEmail">E-mail</label>
+                </div>
+
+                
+                <!-- message -->
+                <div>
+                  <textarea type="text" name="message" id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                <label  for="materialContactFormMessage">Message:</label>
+                </div>
+                
+                <!-- send button -->
+
+                <button id="my-form-button" class="btn btn-warning btn-rounded white-text z-depth-0 my-4 waves-effect" >Send</button>
+
+                <p id="my-form-status"></p>
+              </form>
   
     </div>
   
@@ -194,6 +220,54 @@
     <script>
     new WOW().init();
     </script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
 
     <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(119473)</script> 
 
