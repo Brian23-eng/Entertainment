@@ -30,8 +30,8 @@
   transform: translate3d(0, 0, 0);
   position: relative;
   width: 25%;
-  height: 100vh;
-  min-height: 600px;
+  height: 70vh;
+  min-height: 500px;
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
@@ -48,13 +48,13 @@
 }
 
 .tl-item:after {
-  background: rgba(3, 22, 37, 0.85);
+  /* background: rgba(3, 22, 37, 0.85); */
   opacity: 1;
   transition: opacity 0.5s ease;
 }
 
 .tl-item:before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%);
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%); */
   z-index: 1;
   opacity: 0;
   transform: translate3d(0, 0, 0) translateY(50%);
@@ -65,9 +65,9 @@
   width: 30% !important;
 }
 
-.tl-year {
+/* .tl-year {
   text-decoration: line-through;
-}
+} */
 
 .tl-item:hover .tl-year {
   text-decoration: none;
@@ -117,18 +117,12 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
-  /* border-top: 1px solid #fff; */
-  /* border-bottom: 1px solid #fff; */
 }
 
 .tl-year p {
   font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.728rem;
 }
-/* 
-.tl-year:hover p {
-   line-height: 0; 
-} */
 
 .tl-bg {
   transform: translate3d(0, 0, 0);
@@ -346,8 +340,8 @@ footer{
 }
 
 .why{
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .smart,.evacute,.audit, .cable,.enter,.music{
@@ -396,16 +390,16 @@ footer{
 }
 
 .what{
-  padding-top: 25px;
-  padding-bottom: 25px;  
+  padding-top: 10px;
+  padding-bottom: 10px;  
 }
 .entertainment{
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .emr{
-  padding: 5%;
+  padding: 25px;
 }
 
 .email{
@@ -430,4 +424,24 @@ footer{
 
 #job1, #job2, #job3, #job4, #job5,#job6{
   display: none;
+}
+
+.gall{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
