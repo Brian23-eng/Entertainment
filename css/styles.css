@@ -289,3 +289,19 @@ footer{
 .gallery{
   padding-top: 35px;
 }
+
+.card-img-overlay {
+  background-color: white;
+  opacity: 0.5;
+}
+
+.work1,.work2, .work3, .work4,.work5, .work6 {
+  border-radius: 0;
+  cursor: pointer;
+  border-style: none;
+  border: none;
+}
+
+#job1, #job2, #job3, #job4, #job5,#job6{
+  display: none;
+}
