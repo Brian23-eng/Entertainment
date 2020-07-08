@@ -206,12 +206,11 @@ footer{
   padding-bottom: 25px;
 }
 
-.kiasi{
-  padding-top: 25px;
-}
 
 .andish, .cro, .cri, .cra, .cre, .cru{
-  padding: 15px;
+  background-color: transparent;
+  color: black ;
+  padding: 10%;
 }
 
 .do{
@@ -220,14 +219,9 @@ footer{
   color: black;
 }
 
-.card{
-  background-color: transparent;
-  color: black ;
-  padding: 10%;
-}
-
 .why{
-  padding-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .smart,.evacute,.audit, .cable,.enter,.music{
@@ -273,4 +267,17 @@ footer{
 .turn{
   padding: 20%;
   color: white;
+}
+
+.what{
+  padding-top: 25px;
+  padding-bottom: 25px;  
+}
+.entertainment{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.emr{
+  padding: 5%;
 }
