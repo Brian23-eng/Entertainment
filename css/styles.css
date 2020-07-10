@@ -400,6 +400,7 @@ footer{
 
 .emr{
   padding: 25px;
+  
 }
 
 .email{
@@ -444,4 +445,8 @@ hr.style-one {
   background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+body{
+  background-color: #F5EEF8;
 }
