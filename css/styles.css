@@ -101,6 +101,7 @@
   margin: 0 1.618em;
   top: 55%;
   opacity: 0;
+  color: black;
 }
 
 .tl-content h1 {
@@ -120,8 +121,9 @@
 }
 
 .tl-year p {
-  font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.728rem;
+  color: black;
 }
 
 .tl-bg {
@@ -327,10 +329,16 @@ footer{
 }
 
 
-.andish, .cro, .cri, .cra, .cre, .cru{
+.andish, .cro, .cri, .cra, .cru{
   background-color: transparent;
   color: black ;
   padding: 10%;
+}
+
+.cre{
+  background-color: transparent;
+  color: black ;
+  padding: 5%;
 }
 
 .do{
@@ -342,10 +350,13 @@ footer{
 .why{
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .smart,.evacute,.audit, .cable,.enter,.music{
   display: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: large;
 }
 
 .about{
@@ -368,7 +379,6 @@ footer{
 }
 
 .sono{
-  
     background-image:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),url("../Assets/sonos1.jpg");
     background-size: cover;
     background-repeat:no-repeat;
@@ -382,6 +392,7 @@ footer{
 
 .reach{
   padding: 25%;
+  font-family: 'Cinzel', serif;
 }
 
 .turn{
@@ -392,14 +403,18 @@ footer{
 .what{
   padding-top: 10px;
   padding-bottom: 10px;  
+  font-family: 'Heebo', sans-serif;
 }
 .entertainment{
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .emr{
   padding: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: larger;
   
 }
 
@@ -430,11 +445,13 @@ footer{
 .gall{
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .profile{
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: 'Heebo', sans-serif;
 }
 
 hr.style-one {
@@ -449,4 +466,38 @@ hr.style-one {
 
 body{
   background-color: #F5EEF8;
+}
+
+.ome, .bout, .tact, .lery{
+  font-family: 'Crimson Text', serif;
+}
+
+.evacu,.smart1, .rium, .cab, .ment, .prof, .sonos, .polka, .sonic{
+  font-family: 'Cinzel', serif;
+}
+
+.head1{
+  font-family: 'Oswald', sans-serif;
+}
+
+.cust, .feed, .market, .wor, .drop, .give{
+  font-family: 'Playfair Display', serif;
+}
+
+.part, .lor{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: large;
+}
+.sent{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: larger;
+}
+
+.retail{
+  font-family: 'Crimson Text', serif;
+}
+
+.ltd{
+  font-family: 'Abel', sans-serif;
+  font-size: large;
 }
