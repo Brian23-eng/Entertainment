@@ -529,6 +529,6 @@ body{
   background-color: #C5C1BE;
 }
 
-/* .give, .drop{
-  color: #CAA308;
-} */
+.embed-responsive-10by3 {
+  padding-top: 30%;
+}
