@@ -48,8 +48,8 @@
 }
 
 .tl-item:after {
-  /* background: rgba(3, 22, 37, 0.85); */
-  opacity: 1;
+  background: rgba(244, 206, 51);
+  opacity: 0.7;
   transition: opacity 0.5s ease;
 }
 
@@ -316,7 +316,7 @@ footer{
 }
 
 #social i:hover{
-  color: #D35400;
+  color: #DABD06;
 }
 
 .kwanza{
@@ -351,6 +351,7 @@ footer{
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Heebo', sans-serif;
+  color: #C65105;
 }
 
 .smart,.evacute,.audit, .cable,.enter,.music{
@@ -404,18 +405,19 @@ footer{
   padding-top: 10px;
   padding-bottom: 10px;  
   font-family: 'Heebo', sans-serif;
+  color: #C65105;
 }
 .entertainment{
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Heebo', sans-serif;
+  color: #C65105;
 }
 
 .emr{
   padding: 25px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: larger;
-  
 }
 
 .email{
@@ -446,12 +448,14 @@ footer{
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Heebo', sans-serif;
+  color: #C65105;
 }
 
 .profile{
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Heebo', sans-serif;
+  color: #C65105;
 }
 
 hr.style-one {
@@ -474,6 +478,7 @@ body{
 
 .evacu,.smart1, .rium, .cab, .ment, .prof, .sonos, .polka, .sonic{
   font-family: 'Cinzel', serif;
+  color: #DABD06;
 }
 
 .head1{
@@ -495,9 +500,35 @@ body{
 
 .retail{
   font-family: 'Crimson Text', serif;
+  color:#C65105;
 }
 
 .ltd{
   font-family: 'Abel', sans-serif;
   font-size: large;
+  color:#C5C1BE;
+  
 }
+
+.modal-title{
+  font-family: 'Bebas Neue', cursive;
+  color:#C65105;
+}
+
+.modal-body{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.modal-footer button{
+  font-family: 'Teko', sans-serif;
+  font-size: large;
+}
+
+.modal-content{
+  background-color: #C5C1BE;
+}
+
+/* .give, .drop{
+  color: #CAA308;
+} */
